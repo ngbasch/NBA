@@ -1,0 +1,5 @@
+key,date,ml_time,team,opp_team,ml_consensus,ml_PIN,ml_FD,ml_HER,ml_BVD,ml_BOL,rl_time,rl_consensus,rl_PIN_line,rl_PIN_odds,rl_FD_line,rl_FD_odds,rl_HER_line,rl_HER_odds,rl_BVD_line,rl_BVD_odds,rl_BOL_line,rl_BOL_odds,tot_time,tot_consensus,tot_PIN_line,tot_PIN_odds,tot_FD_line,tot_FD_odds,tot_HER_line,tot_HER_odds,tot_BVD_line,tot_BVD_odds,tot_BOL_line,tot_BOL_odds
+20200213,10:03:10,away,Oklahoma City,New Orleans,42.0,+160,+150,+155,+150,+150,away,46.0,+3.5,+101,+3.5,-102,+4,-105,+4,-105,+3.5,-107,away,59.0,234,+102,233,-105,233.5,-105,235,-105,233.5,-110
+20200213,10:03:10,home,New Orleans,Oklahoma City,58.0,-179,-160,-180,-170,-170,home,54.0,-3.5,-111,-3.5,-108,-4,-105,-4,-115,-3.5,-113,home,41.0,234,-112,233,-105,233.5,-105,235,-115,233.5,-110
+20200213,10:03:10,away,L.A. Clippers,Boston,54.0,+101,+103,-115,-105,-110,away,48.0,+1.5,-109,-1,+105,+1,-105,+1.5,-115,+1,-115,away,49.0,228,-104,229,+103,228,-105,228,-110,228,-110
+20200213,10:03:10,home,Boston,L.A. Clippers,46.0,-111,-113,-105,-115,-110,home,52.0,-1.5,-102,+1,-125,-1,-105,-1.5,-105,-1,-105,home,51.0,228,-106,229,-123,228,-105,228,-110,228,-110
