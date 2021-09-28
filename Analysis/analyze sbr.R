@@ -16,7 +16,7 @@ teamcrosswalk<-read_excel("../Input/team crosswalk.xlsx")
 rm(list=ls())
 
 # Set working directory
-path <- "C:\\Users\\nated\\Documents\\Documents_NB\\Projects\\Betting\\SBR Workflow"
+path <- "Documents/Github/NBA/SBR Workflow"
 options(stringsAsFactors = F)
 setwd(path)
 

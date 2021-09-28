@@ -43,7 +43,9 @@ def soup_url(type_of_line, tdate):
         print("Wrong url_addon")
     url = 'https://classic.sportsbookreview.com/betting-odds/nba-basketball/' + url_addon + '?date=' + tdate
     now = datetime.datetime.now()
-    raw_data = requests.get(url)
+    #Need to add headers or SBR Will reject request
+    headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36'}
+    raw_data = requests.get(url, headers = headers)
     soup_big = BeautifulSoup(raw_data.text, 'html.parser')
     #There is an issue with some of the days (for example, 2/11/2010)
     #The classic site doesn't have the data while the non-classic does.
